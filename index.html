@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>resta</title>
+    <link rel ="shortcut icon" href="R logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+ 
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <h1 class="header_title">african<span>kitchen</span></h1>
+      <ul class="header_menus">
+        <li>
+          <a href="#home"><i class="fa-regular fa-house"></i>home</a>
+        </li>
+        <li>
+          <a href="#menus"><i class="fa-solid fa-list"></i>menus</a>
+        </li>
+        <li>
+          <a href="#about"><i class="fa-solid fa-user"></i>about</a>
+        </li>
+        <li>
+          <a href="#services"><i class="fa-solid fa-lightbulb"></i>services</a>
+        </li>
+        <li>
+          <a href="#contact"><i class="fa-solid fa-phone"></i>contact</a>
+        </li>
+      </ul>
+      <div class="header_menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </header>
+    <!-- <i class="fa-solid fa-list"></i> -->
+    <!-- SECTION: HOME -->
+    <section id="home" class="section-home section-menu">
+      <div class="section-home_content">
+        <h1 class="section-home_title">
+          welcome to <span>restaurant</span>,where flavor lives!
+        </h1>
+        <div class="section-home_buttons">
+          <button class="primary-button">Contact us</button>
+          <a href="#menus" class="light-button hover-icon-right">
+            Explore
+            <i class="fa-solid fa-right-long"></i>
+          </a>
+        </div>
+      </div>
+      <img class="section-home_image" src="padthai.webp" alt="padthai" />
+    </section>
+
+    <!-- SECTION: MENUS -->
+    <section class="section-menus section-menu" id="menus">
+      <h1 class="section-title">our <span>menus</span></h1>
+      <p class="section-desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sint
+        dolore! Praesentium non quo placeat quasi officiis et ducimus, doloribus
+        nesciunt suscipit iure ab quos?
+      </p>
+      <div class="section-menus_cards">
+        <!-- CARD 1 -->
+        <div class="section-menus_card">
+          <img class="sec" src="roasted chicken.png" alt="roasted chicken" />
+          <h3 class="section-menus_card-title">roasted chicken</h3>
+          <div class="section-menus_card-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>4.3</span>
+          </div>
+          <div class="section-menus_card-footer">
+            <h2 class="section-menus_card-price">$3.90</h2>
+            <button class="section-menus_card-button--buy primary-button">
+              <i class="fa-solid fa-cart-arrow-down"></i>
+            </button>
+          </div>
+        </div>
+        <!-- CARD 2 -->
+        <div class="section-menus_card">
+          <img class="sec" src="roasted chicken.png" alt="roasted chicken" />
+          <h3 class="section-menus_card-title">seafood noddles</h3>
+          <div class="section-menus_card-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>5.0</span>
+          </div>
+          <div class="section-menus_card-footer">
+            <h2 class="section-menus_card-price">$4.90</h2>
+            <button class="section-menus_card-button--buy primary-button">
+              <i class="fa-solid fa-cart-arrow-down"></i>
+            </button>
+          </div>
+        </div>
+        <!-- CARD 3 -->
+        <div class="section-menus_card">
+          <img class="sec" src="roasted chicken.png" alt="roasted chicken" />
+          <h3 class="section-menus_card-title">ice cream</h3>
+          <div class="section-menus_card-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>3.9</span>
+          </div>
+          <div class="section-menus_card-footer">
+            <h2 class="section-menus_card-price">$7.49</h2>
+            <button class="section-menus_card-button--buy primary-button">
+              <i class="fa-solid fa-cart-arrow-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION: MENUS --> 
+
+    <!-- SECTION: ABOUT -->
+    <section id="about" class="section-about section-menu">
+      <img class="section-about_image" src="noodles-removebg-preview.png" alt="">
+      <div class="section-about_content">
+        <h1 class="section-title">about <span>us</span></h1>
+        <p class="section-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita amet sunt ipsam ipsa vel magnam suscipit harum doloremque sapiente. Labore consequuntur unde perspiciatis nostrum atque!
+        </p>
+        <div class="section-about_stats">
+          <div class="section-about_stat">
+            <h1 class="section-about_stat-number">3+</h1>
+            <div class="section-about_stat-text">
+              <span class="section-about_stat-desc"> years of</span>
+              <h3 class="section-about_stat-title">EXPERIENCE</h3>
+            </div>
+          </div>
+        <div class="section-about_stats">
+          <div class="section-about_stat">
+            <h1 class="section-about_stat-number">15</h1>
+            <div class="section-about_stat-text">
+              <span class="section-about_stat-desc">best</span>
+              <h3 class="section-about_stat-title">FOODS</h3>
+            </div>
+          </div>
+        </div>
+        <div class="section-about_button">
+          <button class="primary-button hover-icon-right">
+            Explore<i class="fa-solid fa-right-long"></i>
+          </button>
+        <button class="primary-button hover-icon-right">
+          learn more<i class="fa-solid fa-right-long"></i>
+        </button>
+      </div>
+      <!-- <img  class="section-about_image-background-1" src="seafood.avif" 
+      alt="seafood"> -->
+      <img class="section-about_image-background-2" src="roasted chicken.png" alt="roasted chicken">
+    </section>
+    <!-- END SECTION: ABOUT -->
+
+    <!-- SECTION: SERVICES -->
+    <section class="section-service service-menu" id="services">
+      <h1 class="section-title">our <span>services</span></h1>
+      <p class="section-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nulla minima quasi exercitationem dicta nam deleniti iste. Expedita suscipit pariatur odit veniam eos consequatur quidem?
+      </p>
+      <div class="section-services_cards">
+      <div class="section-services_card">
+        <div class="section-services_card-icon">
+           <i class="fa-solid fa-star"></i>
+        </div>
+        <h1 class="section-services_card-title">dine-in service</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, perferendis?</p>
+      </div>
+      <div class="section-services_card">
+        <div class="section-services_card-icon">
+             <i class="fa-regular fa-truck"></i>
+        </div>
+        <h1 class="section-services_card-title">takeaway & delivery</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, perferendis?</p>
+      </div>
+      <div class="section-services_card">
+        <div class="section-services_card-icon">
+            <i class="fa-regular fa-calendar-check"></i>
+        </div>
+        <h1 class="section-services_card-title">event & catering</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, perferendis?</p>
+      </div>
+      </div>
+    </section>
+    <!-- SECTION: END SERVICES -->
+
+    <!-- SECTION: CONTACT -->
+    <section class="section-contact section-menu" id="contact">
+      <div class="section-contact_info">
+        <h1 class="section-title">contact <span>us</span></h1>
+        <p class="section-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cum odio suscipit cumque vel quas a unde eum nihil, consequuntur maxime architecto eos ipsum porro.
+        </p>
+        <div class="section-contact_info-items">
+          <div class="section-contact_info-item">
+             <i class="fa-solid fa-location-dot"></i>
+          <!-- </div> -->
+          <a class="section-contact_info-item-link" href="#">
+            restaurant street, kobayoran baru, south jakarta, 121430, indonesia
+          </a>
+        </div>
+         <div class="section-contact_info-item">
+            <i class="fa-brands fa-instagram"></i>
+          <!-- </div> -->
+          <a class="section-contact_info-item-link" href="#">
+           @restaurant_username
+          </a>
+        </div>
+         <div class="section-contact_info-item">
+            <i class="fa-brands fa-facebook"></i>
+          <!-- </div> -->
+          <a class="section-contact_info-item-link" href="#">
+           restaurant name
+          </a>
+        </div>
+      </div>
+    </div>
+    <form class="section-contact_form" action="#">
+      <input type="text" class="text-field" placeholder="Your name">
+      <input type="email" class="text-field" placeholder="Email">
+      <input type="tel" class="text-field" placeholder="Phone number">
+      <textarea class="text-field text-field--textarea" placeholder="Message" rows="5"></textarea>
+      <button class="section-contact_form-button secondary-button">Send message</button>
+    </form>
+    </section>
+    <!-- SECTION: END CONTACT -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <h1 class="footer_title">resta<span>urant</span> </h1>
+      <ul class="footer_menus">
+        <li class="footer_menus-menu"><a href="#home">home</a></li>
+        <li class="footer_menus-menu"><a href="#menus">menus</a></li>
+        <li class="footer_menus-menu"><a href="#about">about</a></li>
+        <li class="footer_menus-menu"><a href="#services">services</a></li>
+        <li class="footer_menus-menu"><a href="#contact">contact</a></li>
+      </ul>
+      <div class="footer_divider"></div>
+      <p class="footer_copyright">
+        &copy; 2023 restaurant. all rights reserved. | crafted by codeArry
+      </p>
+    </footer>
+    <!-- END FOOTER -->
+  </body>
+    <script src="script.js"></script>
+</html>
